@@ -1633,7 +1633,7 @@ country_event = {
 				value = 150
 			}
 			war_with = SUA
-			number_of_states = 2 #Needed otherwise establish_protectorate_casus_belli doesn't work.
+			SUA = { number_of_states = 2 } #Needed otherwise establish_protectorate_casus_belli doesn't work.
 		}
 		NOT = { has_country_flag = border_raid_suazi }
 	}
@@ -1683,7 +1683,7 @@ country_event = {
 				value = 150
 			}
 			war_with = ZUL
-			number_of_states = 2 #Needed otherwise establish_protectorate_casus_belli doesn't work.
+			ZUL = { number_of_states = 2 } #Needed otherwise establish_protectorate_casus_belli doesn't work.
 		}
 		NOT = { has_country_flag = border_raid_zulu }
 	}
@@ -1733,7 +1733,7 @@ country_event = {
 				value = 150
 			}
 			war_with = BSH
-			number_of_states = 2 #Needed otherwise establish_protectorate_casus_belli doesn't work.
+			BSH = { number_of_states = 2 } #Needed otherwise establish_protectorate_casus_belli doesn't work.
 		}
 		NOT = { has_country_flag = border_raid_bsh }
 	}
