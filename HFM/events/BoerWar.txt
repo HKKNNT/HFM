@@ -129,6 +129,9 @@ country_event = {
 	option = {
 		name = "EVT98206OPTA"
 		prestige = 5
+		2112 = { change_province_name = "Ladysmith" secede_province = THIS  }
+		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
+		2111 = { state_scope = { change_region_name = "Natal" } }
 		release_vassal = NAL
 		relation = { who = ZUL value = -100 }
 		relation = { who = NAL value = -100 }
@@ -145,9 +148,6 @@ country_event = {
 			money = 250
 			move_pop = 2111
 		}
-		2112 = { change_province_name = "Ladysmith" secede_province = THIS  }
-		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
-		2111 = { state_scope = { change_region_name = "Natal" } }
 		ai_chance = { factor = 100 }
 	}
 	
@@ -155,6 +155,9 @@ country_event = {
 		name = "EVT98206OPTB"
 		prestige = -5
 		badboy = -2
+		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
+		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
+		2111 = { state_scope = { change_region_name = "Natal" is_slave = yes } }
 		release = NAL
 		relation = { who = NAL value = 50 }
 		diplomatic_influence = { who = NAL value = 200 }
@@ -170,14 +173,6 @@ country_event = {
 			money = 250
 			move_pop = 2111
 		}
-		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
-		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
-		2111 = {
-			state_scope = {
-				change_region_name = "Natal"
-				is_slave = yes
-			}
-		}
 		ai_chance = { factor = 0 }
 	}
 	
@@ -185,6 +180,9 @@ country_event = {
 		name = "EVT98207OPTC"
 		prestige = -5
 		badboy = -2
+		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
+		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
+		2111 = { state_scope = { change_region_name = "Natal" is_slave = yes } }
 		release = NAL
 		relation = { who = NAL value = 50 }
 		diplomatic_influence = { who = NAL value = 200 }
@@ -200,9 +198,6 @@ country_event = {
 			money = 250
 			move_pop = 2111
 		}
-		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
-		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
-		2111 = { state_scope = { change_region_name = "Natal" is_slave = yes } }
 		change_tag_no_core_switch = NAL
 		ai_chance = { factor = 0 }
 	}
@@ -222,6 +217,9 @@ country_event = {
 	
 	option = {
 		name = "EVT98206OPTA"
+		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
+		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
+		2111 = { state_scope = { change_region_name = "Natal" is_slave = yes } }
 		release = NAL
 		casus_belli ={
 				target = NAL
@@ -241,13 +239,6 @@ country_event = {
 			money = 250
 			move_pop = 2111
 		}
-		2112 = { change_province_name = "Ladysmith" }
-		2111 = { change_province_name = "Pietermaritzburg" }
-		2111 = {
-			state_scope = {
-				change_region_name = "Natal"
-			}
-		}
 		ai_chance = {
 			factor = 90
 		}
@@ -257,6 +248,9 @@ country_event = {
 		name = "EVT98207OPTB"
 		prestige = 5
 		badboy = -2
+		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
+		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
+		2111 = { state_scope = { change_region_name = "Natal" is_slave = yes } }
 		release = NAL
 		relation = { who = NAL value = 50 }
 		diplomatic_influence = { who = NAL value = 100 }
@@ -272,13 +266,6 @@ country_event = {
 			money = 250
 			move_pop = 2111
 		}
-		2112 = { change_province_name = "Ladysmith" }
-		2111 = { change_province_name = "Pietermaritzburg" }
-		2111 = {
-			state_scope = {
-				change_region_name = "Natal"
-			}
-		}
 		ai_chance = {
 			factor = 10
 		}
@@ -286,6 +273,9 @@ country_event = {
 	
 	option = {
 		name = "EVT98207OPTC"
+		2112 = { change_province_name = "Ladysmith" secede_province = THIS }
+		2111 = { change_province_name = "Pietermaritzburg" secede_province = THIS }
+		2111 = { state_scope = { change_region_name = "Natal" is_slave = yes } }
 		release = NAL
 		casus_belli ={
 				target = NAL
@@ -306,16 +296,10 @@ country_event = {
 			money = 250
 			move_pop = 2111
 		}
-		2112 = { change_province_name = "Ladysmith" }
-		2111 = { change_province_name = "Pietermaritzburg" }
-		2111 = {
-			state_scope = {
-				change_region_name = "Natal"
-			}
-		}
 		ai_chance = { factor = 0 }
 	}
 }
+
 
 country_event = {
 	id = 98210
