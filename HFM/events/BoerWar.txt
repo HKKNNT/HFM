@@ -429,6 +429,7 @@ country_event = {
 	option = {
 		name = "EVT98212OPTB"
 		civilized = no
+		NAL = { government = colonial_company }
 		FROM = { inherit = THIS }	
 		FROM = {
 			any_owned = { 
@@ -443,7 +444,6 @@ country_event = {
 			}
 			2111 = { any_pop = { limit = { is_culture_group = south_asian } reduce_pop = 3.5 } }
 		}
-		NAL = { government = colonial_company }
 		ai_chance = {
 			factor = 95
 		}
@@ -617,7 +617,6 @@ country_event = {
 		}
 		release_vassal = ORA
 		relation = { who = ORA value = 50 }
-		ORA = { prestige = -30 }
 		2101 = {
 			state_scope = { is_slave = yes }
 		}
@@ -712,7 +711,6 @@ country_event = {
 		}
 		release_vassal = ORA
 		relation = { who = ORA value = 50 }
-		ORA = { prestige = -30 }
 		2101 = {
 			state_scope = { is_slave = yes }
 		}
@@ -905,7 +903,6 @@ country_event = {
 		}
 		release_vassal = TRN
 		relation = { who = TRN value = 50 }
-		TRN = { prestige = -30 }
 		2105 = {
 			state_scope = { is_slave = yes }
 		}
@@ -1037,7 +1034,6 @@ country_event = {
 		}
 		release_vassal = TRN
 		relation = { who = TRN value = 50 }
-		TRN = { prestige = -30 }
 		2105 = {
 			state_scope = { is_slave = yes }
 		}
