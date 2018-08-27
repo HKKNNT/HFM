@@ -1703,7 +1703,6 @@ country_event = {
 		NOT = {
 			has_global_flag = second_boer_war
 			has_global_flag = no_boer_war
-			exists = SAF
 			exists = ZUL
 			truce_with = TRN
 		}
