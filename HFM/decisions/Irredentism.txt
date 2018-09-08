@@ -58,6 +58,7 @@ political_decisions = {
 			RUS_994 = { add_core = FIN }
 			RUS_339 = { add_core = FIN }
 			RUS_349 = { add_core = FIN }
+			add_accepted_culture = estonian
 			add_accepted_culture = ugrian
 			prestige = 10
 			badboy = 10
