@@ -215,7 +215,7 @@ country_event = {
 		random_owned = { limit = { province_id = 1740 owned_by = TUR } secede_province = LBY }
 		random_owned = { limit = { province_id = 1741 owned_by = TUR } secede_province = LBY }
 		random_owned = { limit = { province_id = 1742 owned_by = TUR } secede_province = LBY }
-		random_owned = { limit = { province_id = 1743 owned_by = TUR } secede_province = LBY }
+		#random_owned = { limit = { province_id = 1743 owned_by = TUR } secede_province = LBY }
 		random_owned = { limit = { province_id = 1744 owned_by = TUR } secede_province = LBY }
 		TUR = { create_vassal = LBY }
 		CYR = { all_core = { add_core = LBY } }
@@ -274,7 +274,7 @@ picture = "italoturk2"
 		random_owned = { limit = { province_id = 1740 owned_by = TUR } secede_province = ITA }
 		random_owned = { limit = { province_id = 1741 owned_by = TUR } secede_province = ITA }
 		random_owned = { limit = { province_id = 1742 owned_by = TUR } secede_province = ITA }
-		random_owned = { limit = { province_id = 1743 owned_by = TUR } secede_province = ITA }
+		#random_owned = { limit = { province_id = 1743 owned_by = TUR } secede_province = ITA }
 		random_owned = { limit = { province_id = 1744 owned_by = TUR } secede_province = ITA }
 		ai_chance = {
 			factor = 0.1
